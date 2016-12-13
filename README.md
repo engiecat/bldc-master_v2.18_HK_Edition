@@ -1,4 +1,5 @@
-2016. 10. 19 Hyeongkeun Kim(NAVER LABS, intern) version
+Oct 19, 2016 EngieCat version
+
 Revised) to deal with FOC control of hall-based hub motor, we added a feature in PPM-PID Velocity control to use duty control initially(till the ppm exceeds 0.33), for dealing with low-rpm startup without vibration. Afterwards, it proceeds with PID-velocity control.
 This is tested on 0~1200 erpm PPM PID velocity setting, with 0.33 servo_val threshold.
 
